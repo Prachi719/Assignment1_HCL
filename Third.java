@@ -102,7 +102,7 @@ class TwoDMatrix{
 		int t=0;
 		for(int i=0;i<arr.length;i++) {
 			for (int j = 0;j<arr[0].length;j++) {
-				if((i!=j) {
+				if(i!=j) {
 					t = arr[i][j];
 					arr[i][j] = arr[j][i];
 					arr[j][i] = t;
